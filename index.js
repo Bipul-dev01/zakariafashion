@@ -49,7 +49,7 @@ const days=document.querySelector(".days .number");
 const timeFuctionOn=setInterval(() => {
     let currentDate=new Date().getTime();
     // console.log(currentDate);
-    let launchDate=new Date('Dec 23, 2024 10:00:00').getTime();
+    let launchDate=new Date('Dec 31, 2024 10:00:00').getTime();
     // console.log(launchDate);
     let duration=launchDate - currentDate;
     //console.log(duration);  //duration milisecond e result dibe, 1 s=1000ms
